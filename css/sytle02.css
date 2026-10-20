@@ -1,0 +1,27 @@
+ul li:nth-of-type(2n-1) { /*홀수번째 li에만 적용*/
+    border:1px solid red;
+    margin-bottom:1px
+}
+ul li:nth-of-type(2n) {/*짝수*/
+    border:1px solid rgb(47, 37, 129);
+}
+ul li:nth-of-type(2) {
+    border:1px solid rgb(96, 12, 117);
+}
+ul li:nth-of-type(3) {
+    border:1px solid rgb(3, 173, 60);
+}
+
+ul li:last-child {
+    border:1px solid blue;
+
+}
+
+ul li:nth-of-type(even) { /*짝수 선택자*/
+    border: 1px solid white;
+    margin-bottom: 1px;
+}
+ul li:nth-of-type(odd) { /*홀수 선택자*/
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 1px;
+}

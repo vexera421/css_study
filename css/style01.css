@@ -1,0 +1,14 @@
+p strong {
+   /*<p>로 감싼 자식태그 <strong>태그에만 적용*/
+    border: 1px solid blue;
+}
+
+ul > li {
+    /* 직계 자식요소인 li에만 테두리 적용*/
+    border:1px solid red;
+
+}
+
+h1, h2, h3 { /*그룹 선택자*/
+    border: 1px solid green;;
+}
